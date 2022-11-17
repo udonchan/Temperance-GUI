@@ -1,0 +1,90 @@
+
+html{
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+    background:#1263e6;
+}
+
+body{
+    overflow: hidden;
+}
+
+#form{
+    width:100%;
+    font-size:16pt;
+    margin:24px auto;
+}
+
+#container{
+    width: 480px;
+    height: 380px;
+    font-size: 24pt;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#label-day{
+    font-size:32pt;
+}
+
+#day{
+    font-size:56pt;
+    font-weight: bold;
+}
+
+#label-temperance{
+    font-size:22pt;
+}
+
+.cloud-image {
+    position: absolute;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+
+.anim-background{
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    z-index:-100;
+}
+
+
+.anim-10 {
+    animation: scroll 10s linear;
+}
+
+.anim-15 {
+    animation: scroll 15s linear;
+}
+
+.anim-20 {
+    animation: scroll 20s linear;
+}
+
+.anim-25 {
+    animation: scroll 25s linear;
+}
+
+
+.options {
+    font-size: 14px;
+}
+	  
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    <title>禁酒カウンター</title>
+  </head>
+  <body>
+    <div id="form">
+      <div>私のソーバーデートは</div>
+      <div>
+	<span id="sober-year" contenteditable="true" >1934</span>年
+	<span id="sober-month" contenteditable="true">12</span>月
+	<span id="sober-day" contenteditable="true">10</span>日
+	<span id="sober-hour" contenteditable="true">9</span>時
+	で
+      </div>
+    </div>
+    <div id="container">
+      <div id="counter">
+	<div id="label-day">
+	  <span id="day">0</span>日と
+	</div>
+	<div "label-time">
+	  <span id="hour">00</span>時間
+	  <span id="minute">00</span>分
+	  <span id="seconds">00</span>秒
+	</div>
+      </div>
+      <div id="label-temperance">酒が止まってます</div>
+    </div>
+    <div id="anim-background"></div>
+    <script src="./js/mt.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
